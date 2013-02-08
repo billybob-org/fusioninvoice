@@ -148,12 +148,12 @@
                     </tr>
                     <tr>
                         <td class="no-bottom-border" colspan="3"></td>
-                        <td><?php echo lang('paid'); ?></td>
+                        <td><?php echo lang('paid'); ?>:</td>
                         <td><?php echo format_currency($invoice->invoice_paid) ?></td>
                     </tr>
                     <tr>
                         <td class="no-bottom-border" colspan="3"></td>                
-                        <td><?php echo lang('balance'); ?></td>
+                        <td><?php echo lang('balance'); ?>:</td>
                         <td><strong><?php echo format_currency($invoice->invoice_balance) ?></strong></td>
                     </tr>
                 </tbody>
